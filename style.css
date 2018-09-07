@@ -1,3 +1,40 @@
 body {
     background: #ffeed6;
 }
+
+.space {
+    height: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 250%;
+}
+
+button {
+    color: #ffffff;
+    background: #029422;
+    border-style: none;
+    padding: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.submit {
+    color: #ffffff;
+    background: #029422;
+    border-style: none;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+table {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
