@@ -2,15 +2,6 @@ body {
     background: #ffeed6;
 }
 
-.space {
-    height: 10px;
-}
-
-.title {
-    font-weight: bold;
-    font-size: 250%;
-}
-
 button {
     color: #ffffff;
     background: #029422;
@@ -18,6 +9,20 @@ button {
     padding: 15px;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.space {
+    height: 10px;
+}
+
+.form-daftar {
+    border: 1px solid grey;
+    margin-bottom: 1%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 250%;
 }
 
 .submit {
@@ -29,12 +34,16 @@ button {
     cursor: pointer;
 }
 
-table {
-    text-align: center;
-}
-
 .container {
     width: 100%;
     margin-top: 10%;
     font-family: sans-serif;
+    text-align: center;
+}
+
+.container-daftar {
+    width: 100%;
+    margin-top: 5%;
+    font-family: sans-serif;
+    text-align: center;
 }
