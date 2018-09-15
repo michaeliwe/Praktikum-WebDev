@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Tugas Praktikum WAD">
+<meta name="keywords" content="WAD,Praktikum,HTML,CSS, JavaScript">
+<meta name="author" content="Michaeliwe">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="assets/logo.png" />
+<title>Liquad Laundry</title>
+<body>
+<div class="containerForm">
+<div class="fieldset">
+<fieldset>
+	<legend><i>Form Laundry</i></legend>
+	<table width="100%" border="1">
+		<tr>
+			<td width="50%">Nama</td>
+			<td rowspan="11"></td>
+			<td rowspan="4">
+				<table width="100%" border="1">
+					<tr>
+						<td colspan="3">
+							Tipe Pelanggan
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="3"></td>
+						<td align="right">
+							<input type="radio" name="tipe"> 
+						</td>
+						<td>Member</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<input type="radio" name="tipe">
+						</td>
+						<td>Non Member</td>
+					</tr>
+				</table>
+			</td>
+
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="nama" class="inputForm">
+			</td>
+		</tr>
+
+		<tr>
+			<td>Alamat</td>
+		</tr>
+		<tr>
+			<td>
+				<textarea name="alamat" class="inputForm"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Berat Laundry</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="berat" class="inputForm">
+			</td>
+		</tr>
+
+		<tr>
+			<td>Paket Laundry</td>
+		</tr>
+		<tr>
+			<td>
+				<select class="inputForm">
+					<option value="">--Silahkan pilih--</option>
+					<option value="saab">Saab</option>
+					<option value="opel">Opel</option>
+					<option value="audi">Audi</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Tanggal Laundry</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="date" name="tanggal" class="inputForm">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input class="button" type="button" name="login" value="PRINT">
+			</td>
+		</tr>
+	</table>
+</fieldset>
+</div>
+</div>
+</body>
+</html>
